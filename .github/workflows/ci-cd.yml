@@ -2,7 +2,7 @@ name: CI/CD
 
 on:
   push:
-    branches: [ feature/workflow ]
+    branches: [ feature/workflow, main ]
     tags:
       - 'v*'
   pull_request:
